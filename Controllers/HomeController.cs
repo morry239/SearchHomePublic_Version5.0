@@ -16,12 +16,6 @@ using JsonResult = Microsoft.AspNetCore.Mvc.JsonResult;
 
 namespace WebApplication1.Controllers;
 
-//https://stackoverflow.com/questions/67321945/upload-image-and-show-that-in-asp-net-core-mvc
-//https://stackoverflow.com/questions/17952514/asp-net-mvc-how-to-display-a-byte-array-image-from-model
-//check this one OUT FIRST https://stackoverflow.com/questions/73877029/image-upload-function-in-crud
-//check out https://learn.microsoft.com/en-us/aspnet/core/mvc/models/file-uploads?view=aspnetcore-9.0
-//https://wordpress.stackexchange.com/questions/367293/image-upload-via-formdata-api-and-ajax-is-not-working-files-always-emptyk
-
 public class HomeController : Controller
 {
     
@@ -119,7 +113,7 @@ public class HomeController : Controller
     {
         try
         {
-            //TODO: Mami muss die bedingung nochmal anpassen!!!!!
+            
             if (true)
             {
                 
