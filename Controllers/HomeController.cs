@@ -157,7 +157,7 @@ public class HomeController : Controller
     {
         try
         {
-            //TODO: ImageName in die Datenbank abspeichern
+            
             Console.WriteLine($"ImageName ist {imageName}");
             string imageBase64Data = Convert.ToBase64String(imageName);
             string imageData = string.Format("data:image/jpg;base64, {0}", imageBase64Data);
